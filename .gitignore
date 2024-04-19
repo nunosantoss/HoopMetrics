@@ -21,6 +21,10 @@
 **/public/workbox-*.js.map
 **/public/worker-*.js.map
 
+############# READ ME
+
+/_README
+
 # production
 /build
 
