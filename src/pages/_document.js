@@ -82,12 +82,10 @@ export default function Document() {
           color="#dc2626"
         />
 
-	<title>Hoop Metrics 🏀</title>
-
         {/* Manifest.json  */}
         <link rel="manifest" href="manifest.json" />
       </Head>
-      <body className="bg-white dark:bg-neutral-800">
+      <body className="bg-neutral-800 dark:bg-neutral-800">
         <Main />
         <NextScript />
       </body>
