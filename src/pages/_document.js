@@ -82,6 +82,8 @@ export default function Document() {
           color="#dc2626"
         />
 
+	<title>Hoop Metrics 🏀</title>
+
         {/* Manifest.json  */}
         <link rel="manifest" href="manifest.json" />
       </Head>
