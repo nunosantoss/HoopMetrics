@@ -5,6 +5,10 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
+  env: {
+    API_KEY: process.env.API_KEY,
+    API_HOST: process.env.API_HOST,
+  },
   compiler: {
     removeConsole: process.env.NODE_ENV !== "development", // Remove console.log in production
   },
