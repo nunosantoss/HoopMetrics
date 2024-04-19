@@ -4,22 +4,28 @@ import { DarkThemeToggle, Flowbite } from "flowbite-react";
 import { SiNba } from "react-icons/si";
 import { useEffect, useState } from "react";
 import { getLeaguesAsync, getSeasonsAsync } from "../hooks/nba";
+import { useRouter } from "next/router";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
-  const [season, setSeason] = useState([]);
+  const router = useRouter();
+  // const [season, setSeason] = useState([]);
+
+  // useEffect(() => {
+  //   const getSeasons = async () => {
+  //     const data = await getSeasonsAsync();
+  //     const data2 = await getLeaguesAsync();
+
+  //     setSeason(data);
+  //   };
+
+  //   getSeasons();
+  //   return () => {};
+  // }, []);
 
   useEffect(() => {
-    const getSeasons = async () => {
-      const data = await getSeasonsAsync();
-      const data2 = await getLeaguesAsync();
-
-      setSeason(data);
-    };
-
-    getSeasons();
-    return () => {};
+    router.push("/comingsoon");
   }, []);
 
   return (
