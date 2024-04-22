@@ -1,6 +1,7 @@
 {
-  "name": "NBA Stats",
-  "short_name": "NBA Stats",
+  "name": "HoopMetrics",
+  "short_name": "HoopMetrics",
+  "description": "A Progressive Web App to check stats of the NBA",
   "theme_color": "#dc2626",
   "background_color": "#ffffff",
   "display": "fullscreen",
